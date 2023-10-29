@@ -1,0 +1,151 @@
+*{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dcdcdc;
+}
+body{
+    background-color: #292929;
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+#nav1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60;
+    padding-right: 40;
+    margin: 0;
+    padding-top: 0;
+}
+#nav2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: start;
+    padding-left: 60;
+    margin: 0%;
+}
+#search{
+    border: solid gray 2px;
+    width: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(197, 197, 197);
+    padding: 10;
+    margin: 20;
+}
+#veliki{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+    padding: 0;
+}
+#dugm{
+    width: 75;
+    height: 40;
+    background-color: transparent;
+    border: rgb(197, 197, 197) solid 2px;
+    color: rgb(197, 197, 197);
+}
+#minisrc{
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#tekts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80;
+    padding: 10;
+}
+#blu{
+    background-color: #006699;
+    border-radius: 35px;
+    border: none;
+    height: 30;
+    width: 120;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 15;
+    transition: 100ms linear;
+}
+#blu:hover{
+    transform: scale(1.1);
+}
+#twit{
+    background-color: #000;
+    border-radius: 35px;
+    border: none;
+    height: 30;
+    width: 120;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 15;
+    transition: 100ms linear;
+}
+#twit:hover{
+    transform: scale(1.1);
+}
+#face{
+    background-color: #34518d;
+    border-radius: 35px;
+    border: none;
+    height: 30;
+    width: 120;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 15;
+    transition: 100ms linear;
+}
+#face:hover{
+    transform: scale(1.1);
+}
+#reddit{
+    background-color: #cc3700;
+    border-radius: 35px;
+    border: none;
+    height: 30;
+    width: 120;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 15;
+    transition: 100ms linear;
+}
+#reddit:hover{
+    transform: scale(1.1);
+}
+#dugmad{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#veliki2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+/*/////////*/
+#vnc{
+    width: 240;
+    height: 440;
+}
