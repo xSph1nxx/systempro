@@ -1,0 +1,194 @@
+body{
+    background-color: rgb(14, 12, 44);
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: rgb(31, 27, 95);
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 100px;
+}
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(31, 27, 95);
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+#nm a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* meni */
+.menu {
+    position: relative;
+    display: inline-block;
+}
+.content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.content a:hover{
+    background-color: #ddd;
+}
+.menu:hover .content{
+    display: block;
+}
+.menu:hover .dropbtn{
+    background-color: #c3bcd6;
+    transition: linear 0.2s;
+}
+/*main*/
+.main{
+    display: flex;
+}
+/*stasysdtasysdfrkaehudytg,whujktg*/
+.stats{
+    display: flex;
+    flex-direction: column;
+}
+.levo{
+    margin: 50px ;
+    display: flex;
+    flex-direction: column;
+}
+/*artifacts*/
+.artifacts{
+    color: white;
+    width: 1200px;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.artifacts img{
+    padding-left: 50px;
+}
+.onadva{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid rgb(31, 27, 95);
+    width: 1013px;
+}
+.arr{
+    display: flex;
+    align-items: center;
+}
+.arr img{
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    border: 2px solid rgb(31, 27, 95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*weapons*/
+.weapon{
+    color: white;
+    width: 1200px;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.weapon img{
+    padding-left: 50px;
+}
+.wep{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.wep img{
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    border: 2px solid rgb(31, 27, 95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slike{
+    margin-left: 20px;
+    display: flex;
+}
+/*teams*/
+.teams{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 1200px;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+}
+.team img{
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    border: 2px solid rgb(31, 27, 95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tim{
+    display: flex;
+}
+/*ono sa strane*/
+.cons{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.con{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+}
+.naziv{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(31, 27, 95);
+    width: 200px;
+}
+.naziv h3{
+    text-align: center;
+}
+.explain{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: 3px solid rgb(31, 27, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    width: 500px;
+}
